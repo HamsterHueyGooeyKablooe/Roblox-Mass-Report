@@ -18,7 +18,7 @@ reasonDescriptions = {
 }
 
 try:
-	victim   = str(Write.Input("[?] Victim Username: ", Colors.purple_to_blue, interval=0.0025))
+	victim   = str(Write.Input("[?] Victim Username:ReiTheGreat_plays ", Colors.purple_to_blue, interval=0.0025))
 	amount   = int(Write.Input("[?] Report Amount (0=inf): ", Colors.purple_to_blue, interval=0.0025))
 	reason   = int(Write.Input("[?] Reason for Report (1-9): ", Colors.purple_to_blue, interval=0.0025))
 	cooldown = int(Write.Input("[?] Cooldown: ", Colors.purple_to_blue, interval=0.0025))
