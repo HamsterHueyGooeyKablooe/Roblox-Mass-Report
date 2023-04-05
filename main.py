@@ -19,9 +19,9 @@ reasonDescriptions = {
 
 try:
 	victim   = str(Write.Input("[?] Victim Username: ", Colors.purple_to_blue, interval=0.0025))
-	amount   = int(Write.Input("[?] Report Amount (0=inf): ", Colors.purple_to_blue, interval=0.0025))
-	reason   = int(Write.Input("[?] Reason for Report (1-9): ", Colors.purple_to_blue, interval=0.0025))
-	cooldown = int(Write.Input("[?] Cooldown: ", Colors.purple_to_blue, interval=0.0025))
+	amount   = int(Write.Input("[?] Report Amount (1000): ", Colors.purple_to_blue, interval=0.0025))
+	reason   = int(Write.Input("[?] Reason for Report (1): ", Colors.purple_to_blue, interval=0.0025))
+	cooldown = int(Write.Input("[?] Cooldown:5 ", Colors.purple_to_blue, interval=0.0025))
 except Exception as E:
 	Write.Print(f"\n[>] Error: {E}", Colors.purple_to_red, interval=0.0025)
 	Write.Print("\n[>] Enter to Exit...", Colors.purple_to_red, interval=0.0025)
